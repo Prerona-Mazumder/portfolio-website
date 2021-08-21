@@ -133,7 +133,7 @@ section .title::before
 {
     color: #fff;
 }
-.navbar .logo a:hover span
+.navbar .logo a:hover 
 {
     color:  #8533ff;
 }
@@ -888,6 +888,12 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
         }
+
+    .contact-content
+    {
+        display: grid;
+        grid-template-columns:  max-content max-content;
+    }
 }
 
 @media (max-width: 500px) 
